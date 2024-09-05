@@ -1,5 +1,5 @@
 import requests, json
-apikey="bd43bbc45b88b7ee44599f87fcd90394"
+apikey="api key"
 baseURL="https://api.openweathermap.org/data/2.5/weather?q="
 city=input("Enter name of the city :")
 completeURL= baseURL + city + "&appid=" + apikey
